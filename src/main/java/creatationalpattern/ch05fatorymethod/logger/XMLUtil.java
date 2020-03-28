@@ -17,7 +17,7 @@ public class XMLUtil {
 
                 DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-                Document doc = documentBuilder.parse(new File("src/main/java/creatationalpattern/fatorymethod/logger/chartconfig.xml"));
+                Document doc = documentBuilder.parse(new File("config.xml"));
 
                 NodeList nl = doc.getElementsByTagName("className");
                 Node classNode = nl.item(idx).getFirstChild();

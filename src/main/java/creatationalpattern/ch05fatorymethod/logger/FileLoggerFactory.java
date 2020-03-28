@@ -6,9 +6,12 @@ package creatationalpattern.ch05fatorymethod.logger;
 public class FileLoggerFactory implements LoggerFactory {
     @Override
     public Logger createLogger() {
+/*
         //create connection to file system
         Logger logger = new FileLogger();
         //create a file
         return logger;
+*/
+        return new FileLogger();
     }
 }

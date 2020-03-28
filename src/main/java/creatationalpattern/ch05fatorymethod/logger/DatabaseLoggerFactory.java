@@ -6,9 +6,10 @@ package creatationalpattern.ch05fatorymethod.logger;
 public class DatabaseLoggerFactory implements LoggerFactory {
     @Override
     public Logger createLogger() {
-        //connect database
+        /*//connect database
         Logger logger = new DatabaseLogger();
         //initialize logger
-        return logger;
+        return logger;*/
+        return new DatabaseLogger();
     }
 }
