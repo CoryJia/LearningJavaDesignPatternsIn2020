@@ -1,4 +1,4 @@
-package structuralpattern.ch10adapter.Template;
+package structuralpattern.ch10adapter.template;
 
 
 /**
