@@ -1,4 +1,4 @@
-package structuralpattern.ch13decorator;
+package structuralpattern.ch15flyweight;
 
 import java.util.*;
 
